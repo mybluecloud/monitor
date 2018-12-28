@@ -1,0 +1,21 @@
+[
+  {
+    "name": "内存采集数据",
+    "classname": "Win32_PhysicalMemory",
+    "description": "CPU 处理器",
+    "Properties": [
+      {
+        "name": "name",
+        "type": "string",
+        "description": "名字",
+        "expression": ""
+      },
+      {
+        "name": "Capacity",
+        "type": "uint64",
+        "description": "内存容量",
+        "expression": "/1024/1024"
+      }
+    ]
+  }
+]
